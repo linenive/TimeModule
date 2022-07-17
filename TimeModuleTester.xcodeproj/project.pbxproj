@@ -21,6 +21,7 @@
 		A3001F3D2884019800C8E2DC /* TimeUpdater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3001F322884019800C8E2DC /* TimeUpdater.cpp */; };
 		A3001F3E2884019800C8E2DC /* DateSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3001F332884019800C8E2DC /* DateSystem.cpp */; };
 		A3001F3F2884019800C8E2DC /* TimeRepository.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3001F342884019800C8E2DC /* TimeRepository.cpp */; };
+		A3001F41288411E600C8E2DC /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3001F40288411E600C8E2DC /* Game.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		A3001F382884019800C8E2DC /* Timer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Timer.hpp; path = TimeModule/Timer.hpp; sourceTree = SOURCE_ROOT; };
 		A3001F392884019800C8E2DC /* TimeSystem.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = TimeSystem.hpp; path = TimeModule/TimeSystem.hpp; sourceTree = SOURCE_ROOT; };
 		A3001F3A2884019800C8E2DC /* DateSystem.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DateSystem.hpp; path = TimeModule/DateSystem.hpp; sourceTree = SOURCE_ROOT; };
+		A3001F40288411E600C8E2DC /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 				A3001F332884019800C8E2DC /* DateSystem.cpp */,
 				A3001F3A2884019800C8E2DC /* DateSystem.hpp */,
 				A3001F362884019800C8E2DC /* Game.hpp */,
+				A3001F40288411E600C8E2DC /* Game.cpp */,
 				A3001F312884019800C8E2DC /* GameTime.cpp */,
 				A3001F372884019800C8E2DC /* GameTime.hpp */,
 				A3001F302884019800C8E2DC /* RulesForTimeSystem.hpp */,
@@ -321,6 +324,7 @@
 				A3001F192883FCF400C8E2DC /* CWrapper.mm in Sources */,
 				A3001EEC2883FB4A00C8E2DC /* ContentView.swift in Sources */,
 				A3001EEA2883FB4A00C8E2DC /* TimeModuleApp.swift in Sources */,
+				A3001F41288411E600C8E2DC /* Game.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

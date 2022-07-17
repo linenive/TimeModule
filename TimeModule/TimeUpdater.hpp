@@ -12,7 +12,7 @@ private:
 public:
     TimeUpdater(TimeRepository* _time_repo)
     : time_repo(_time_repo), time_update_interval(Timer(UPDATE_INTERVAL_TIME)){};
-    ~TimeUpdater();
+    ~TimeUpdater(){};
     
     void update(float delta);
 };

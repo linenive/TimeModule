@@ -1,13 +1,14 @@
+#include <thread>
 #include "TimeRepository.hpp"
 #include "TimeUpdater.hpp"
 
 class Game {
-private:
+public:
     TimeRepository time_repo;
     TimeUpdater time_updater;
-
-public:
+    
     Game()
-    : time_repo(TimeRepository()), time_updater(TimeUpdater(&time_repo)) { };
-
+    : time_repo(TimeRepository()), time_updater(TimeUpdater(&time_repo)) {};
+    
+    void update();
 };

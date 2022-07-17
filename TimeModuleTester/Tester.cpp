@@ -1,8 +1,16 @@
 #include "Tester.hpp"
 
-Tester::Tester() {}
+Tester::Tester() {
+    game = Game();
+}
 Tester::~Tester() {}
 
+void Tester::gameLoop() {
+    while(true) {
+        game.update();
+    }
+};
+
 int Tester::getTime() {
-    return time;
+    return game.time_repo.GetOverallTime();
 }

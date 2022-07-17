@@ -7,7 +7,8 @@ private:
     GameTime current_game_time;
 
 public:
-    TimeRepository() : current_game_time(GameTime()){}
+    TimeRepository() : current_game_time(GameTime()){};
+    ~TimeRepository(){};
     void CheckEvent();
     void LoadTime(const Year& year, const Month& month,
         const Day& day, const Time& time, const Minute& minute);

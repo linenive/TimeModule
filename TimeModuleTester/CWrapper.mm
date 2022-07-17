@@ -12,9 +12,15 @@
     return self;
 }
 
+- (void)gameLoop
+{
+    self.tester->gameLoop();
+}
+
 - (int)getTime
 {
     return self.tester->getTime();
 }
+
 
 @end
