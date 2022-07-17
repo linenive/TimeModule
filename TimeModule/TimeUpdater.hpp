@@ -14,5 +14,6 @@ public:
     : time_repo(_time_repo), time_update_interval(Timer(UPDATE_INTERVAL_TIME)){};
     ~TimeUpdater(){};
     
+    void update();
     void update(float delta);
 };

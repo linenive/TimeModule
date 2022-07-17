@@ -11,4 +11,5 @@ public:
     : time_repo(TimeRepository()), time_updater(TimeUpdater(&time_repo)) {};
     
     void update();
+    void update(float delta_time);
 };

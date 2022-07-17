@@ -1,14 +1,15 @@
 #include <string>
 #include <iostream>
-#include "Game.hpp"
+#import "GameEngine.hpp"
+#import "Game.hpp"
 
 class Tester {
 private:
+    GameEngine game_engine;
     Game game;
-    int time = 1000;
     
 public:
-    Tester();
+    Tester(): game(Game()), game_engine(GameEngine(&game)) {};
     ~Tester();
     void gameLoop();
     int getTime();

@@ -1,14 +1,9 @@
 #include "Tester.hpp"
 
-Tester::Tester() {
-    game = Game();
-}
 Tester::~Tester() {}
 
 void Tester::gameLoop() {
-    while(true) {
-        game.update();
-    }
+    game_engine.gameLoop();
 };
 
 int Tester::getTime() {
