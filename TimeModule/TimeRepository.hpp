@@ -1,6 +1,6 @@
 #pragma once
 #include "GameTime.hpp"
-#import "Timer.hpp"
+#include "Timer.hpp"
 
 class TimeRepository {
 private:

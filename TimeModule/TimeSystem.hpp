@@ -1,5 +1,5 @@
 #pragma once
-#import "RulesForTimeSystem.hpp"
+#include "RulesForTimeSystem.hpp"
 
 struct Hour{
 	explicit Hour(int h) : val(h) {}

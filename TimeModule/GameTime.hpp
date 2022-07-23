@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
-#import "DateSystem.hpp"
-#import "TimeSystem.hpp"
+#include "DateSystem.hpp"
+#include "TimeSystem.hpp"
 
 class GameTime {
 private:
