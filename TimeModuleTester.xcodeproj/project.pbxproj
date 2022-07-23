@@ -16,11 +16,13 @@
 		A3001F082883FB4C00C8E2DC /* TimeModuleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3001F072883FB4C00C8E2DC /* TimeModuleUITestsLaunchTests.swift */; };
 		A3001F172883FCAF00C8E2DC /* Tester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3001F152883FCAF00C8E2DC /* Tester.cpp */; };
 		A3001F192883FCF400C8E2DC /* CWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = A3001F182883FCF400C8E2DC /* CWrapper.mm */; };
-		A3001F3B2884019800C8E2DC /* TimeSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3001F2F2884019800C8E2DC /* TimeSystem.cpp */; };
-		A3001F3C2884019800C8E2DC /* GameTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3001F312884019800C8E2DC /* GameTime.cpp */; };
 		A3001F3D2884019800C8E2DC /* TimeUpdater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3001F322884019800C8E2DC /* TimeUpdater.cpp */; };
-		A3001F3E2884019800C8E2DC /* DateSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3001F332884019800C8E2DC /* DateSystem.cpp */; };
 		A3001F3F2884019800C8E2DC /* TimeRepository.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3001F342884019800C8E2DC /* TimeRepository.cpp */; };
+		A3001F41288411E600C8E2DC /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3001F40288411E600C8E2DC /* Game.cpp */; };
+		A385471528845A1300C1F831 /* DateSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A385470F28845A1300C1F831 /* DateSystem.cpp */; };
+		A385471628845A1300C1F831 /* TimeSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A385471128845A1300C1F831 /* TimeSystem.cpp */; };
+		A385471728845A1300C1F831 /* GameTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A385471328845A1300C1F831 /* GameTime.cpp */; };
+		A385471D28845B5400C1F831 /* GameEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A385471C28845B5400C1F831 /* GameEngine.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,18 +60,21 @@
 		A3001F182883FCF400C8E2DC /* CWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CWrapper.mm; sourceTree = "<group>"; };
 		A3001F1A2883FD0700C8E2DC /* CWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWrapper.h; sourceTree = "<group>"; };
 		A3001F2E2884019800C8E2DC /* TimeRepository.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = TimeRepository.hpp; path = TimeModule/TimeRepository.hpp; sourceTree = SOURCE_ROOT; };
-		A3001F2F2884019800C8E2DC /* TimeSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TimeSystem.cpp; path = TimeModule/TimeSystem.cpp; sourceTree = SOURCE_ROOT; };
 		A3001F302884019800C8E2DC /* RulesForTimeSystem.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = RulesForTimeSystem.hpp; path = TimeModule/RulesForTimeSystem.hpp; sourceTree = SOURCE_ROOT; };
-		A3001F312884019800C8E2DC /* GameTime.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameTime.cpp; path = TimeModule/GameTime.cpp; sourceTree = SOURCE_ROOT; };
 		A3001F322884019800C8E2DC /* TimeUpdater.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TimeUpdater.cpp; path = TimeModule/TimeUpdater.cpp; sourceTree = SOURCE_ROOT; };
-		A3001F332884019800C8E2DC /* DateSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DateSystem.cpp; path = TimeModule/DateSystem.cpp; sourceTree = SOURCE_ROOT; };
 		A3001F342884019800C8E2DC /* TimeRepository.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TimeRepository.cpp; path = TimeModule/TimeRepository.cpp; sourceTree = SOURCE_ROOT; };
 		A3001F352884019800C8E2DC /* TimeUpdater.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = TimeUpdater.hpp; path = TimeModule/TimeUpdater.hpp; sourceTree = SOURCE_ROOT; };
-		A3001F362884019800C8E2DC /* Game.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Game.hpp; path = TimeModule/Game.hpp; sourceTree = SOURCE_ROOT; };
-		A3001F372884019800C8E2DC /* GameTime.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = GameTime.hpp; path = TimeModule/GameTime.hpp; sourceTree = SOURCE_ROOT; };
 		A3001F382884019800C8E2DC /* Timer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Timer.hpp; path = TimeModule/Timer.hpp; sourceTree = SOURCE_ROOT; };
-		A3001F392884019800C8E2DC /* TimeSystem.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = TimeSystem.hpp; path = TimeModule/TimeSystem.hpp; sourceTree = SOURCE_ROOT; };
-		A3001F3A2884019800C8E2DC /* DateSystem.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DateSystem.hpp; path = TimeModule/DateSystem.hpp; sourceTree = SOURCE_ROOT; };
+		A3001F40288411E600C8E2DC /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = SOURCE_ROOT; };
+		A385470F28845A1300C1F831 /* DateSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DateSystem.cpp; sourceTree = "<group>"; };
+		A385471028845A1300C1F831 /* GameTime.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GameTime.hpp; sourceTree = "<group>"; };
+		A385471128845A1300C1F831 /* TimeSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TimeSystem.cpp; sourceTree = "<group>"; };
+		A385471228845A1300C1F831 /* TimeSystem.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TimeSystem.hpp; sourceTree = "<group>"; };
+		A385471328845A1300C1F831 /* GameTime.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameTime.cpp; sourceTree = "<group>"; };
+		A385471428845A1300C1F831 /* DateSystem.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DateSystem.hpp; sourceTree = "<group>"; };
+		A385471B28845B5400C1F831 /* GameEngine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameEngine.hpp; sourceTree = "<group>"; };
+		A385471C28845B5400C1F831 /* GameEngine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameEngine.cpp; sourceTree = "<group>"; };
+		A3854721288464C100C1F831 /* Game.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Game.hpp; path = TimeModule/Domain/Game.hpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,10 +128,12 @@
 			children = (
 				A3001EE92883FB4A00C8E2DC /* TimeModuleApp.swift */,
 				A3001EEB2883FB4A00C8E2DC /* ContentView.swift */,
-				A3001F152883FCAF00C8E2DC /* Tester.cpp */,
-				A3001F182883FCF400C8E2DC /* CWrapper.mm */,
-				A3001F1A2883FD0700C8E2DC /* CWrapper.h */,
+				A385471B28845B5400C1F831 /* GameEngine.hpp */,
+				A385471C28845B5400C1F831 /* GameEngine.cpp */,
 				A3001F162883FCAF00C8E2DC /* Tester.hpp */,
+				A3001F152883FCAF00C8E2DC /* Tester.cpp */,
+				A3001F1A2883FD0700C8E2DC /* CWrapper.h */,
+				A3001F182883FCF400C8E2DC /* CWrapper.mm */,
 				A3001EED2883FB4B00C8E2DC /* Assets.xcassets */,
 				A3001EF22883FB4B00C8E2DC /* TimeModule.entitlements */,
 				A3001EEF2883FB4B00C8E2DC /* Preview Content */,
@@ -163,23 +170,33 @@
 		A3001F1B2884017900C8E2DC /* TimeModule */ = {
 			isa = PBXGroup;
 			children = (
-				A3001F332884019800C8E2DC /* DateSystem.cpp */,
-				A3001F3A2884019800C8E2DC /* DateSystem.hpp */,
-				A3001F362884019800C8E2DC /* Game.hpp */,
-				A3001F312884019800C8E2DC /* GameTime.cpp */,
-				A3001F372884019800C8E2DC /* GameTime.hpp */,
+				A385470E288459BF00C1F831 /* Domain */,
+				A3854721288464C100C1F831 /* Game.hpp */,
+				A3001F40288411E600C8E2DC /* Game.cpp */,
 				A3001F302884019800C8E2DC /* RulesForTimeSystem.hpp */,
 				A3001F382884019800C8E2DC /* Timer.hpp */,
-				A3001F342884019800C8E2DC /* TimeRepository.cpp */,
 				A3001F2E2884019800C8E2DC /* TimeRepository.hpp */,
-				A3001F2F2884019800C8E2DC /* TimeSystem.cpp */,
-				A3001F392884019800C8E2DC /* TimeSystem.hpp */,
-				A3001F322884019800C8E2DC /* TimeUpdater.cpp */,
+				A3001F342884019800C8E2DC /* TimeRepository.cpp */,
 				A3001F352884019800C8E2DC /* TimeUpdater.hpp */,
+				A3001F322884019800C8E2DC /* TimeUpdater.cpp */,
 			);
 			name = TimeModule;
 			path = ../TimeModuleTesterDeprecated/TimeModule;
 			sourceTree = "<group>";
+		};
+		A385470E288459BF00C1F831 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				A385470F28845A1300C1F831 /* DateSystem.cpp */,
+				A385471428845A1300C1F831 /* DateSystem.hpp */,
+				A385471328845A1300C1F831 /* GameTime.cpp */,
+				A385471028845A1300C1F831 /* GameTime.hpp */,
+				A385471128845A1300C1F831 /* TimeSystem.cpp */,
+				A385471228845A1300C1F831 /* TimeSystem.hpp */,
+			);
+			name = Domain;
+			path = TimeModule/Domain;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -313,14 +330,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3001F3F2884019800C8E2DC /* TimeRepository.cpp in Sources */,
+				A385471628845A1300C1F831 /* TimeSystem.cpp in Sources */,
+				A385471D28845B5400C1F831 /* GameEngine.cpp in Sources */,
 				A3001F3D2884019800C8E2DC /* TimeUpdater.cpp in Sources */,
+				A385471528845A1300C1F831 /* DateSystem.cpp in Sources */,
+				A385471728845A1300C1F831 /* GameTime.cpp in Sources */,
 				A3001F172883FCAF00C8E2DC /* Tester.cpp in Sources */,
-				A3001F3E2884019800C8E2DC /* DateSystem.cpp in Sources */,
-				A3001F3B2884019800C8E2DC /* TimeSystem.cpp in Sources */,
-				A3001F3C2884019800C8E2DC /* GameTime.cpp in Sources */,
 				A3001F192883FCF400C8E2DC /* CWrapper.mm in Sources */,
 				A3001EEC2883FB4A00C8E2DC /* ContentView.swift in Sources */,
 				A3001EEA2883FB4A00C8E2DC /* TimeModuleApp.swift in Sources */,
+				A3001F41288411E600C8E2DC /* Game.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
