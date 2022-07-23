@@ -1,5 +1,5 @@
 #pragma once
-#include "GameTime.hpp"
+#include "Domain/GameTime.hpp"
 #include "Timer.hpp"
 
 class TimeRepository {
