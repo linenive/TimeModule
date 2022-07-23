@@ -140,9 +140,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Domain\DateSystem.hpp" />
-    <ClInclude Include="Domain\Game.hpp" />
     <ClInclude Include="Domain\GameTime.hpp" />
     <ClInclude Include="Domain\TimeSystem.hpp" />
+    <ClInclude Include="Game.hpp" />
     <ClInclude Include="RulesForTimeSystem.hpp" />
     <ClInclude Include="Timer.hpp" />
     <ClInclude Include="TimeRepository.hpp" />
@@ -152,6 +152,7 @@
     <ClCompile Include="Domain\DateSystem.cpp" />
     <ClCompile Include="Domain\GameTime.cpp" />
     <ClCompile Include="Domain\TimeSystem.cpp" />
+    <ClCompile Include="Main.cpp" />
     <ClCompile Include="TimeRepository.cpp" />
     <ClCompile Include="TimeUpdater.cpp" />
   </ItemGroup>
