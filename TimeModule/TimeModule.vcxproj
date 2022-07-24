@@ -139,20 +139,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="DateSystem.hpp" />
+    <ClInclude Include="Domain\DateSystem.hpp" />
+    <ClInclude Include="Domain\GameTime.hpp" />
+    <ClInclude Include="Domain\TimeSystem.hpp" />
     <ClInclude Include="Game.hpp" />
-    <ClInclude Include="GameTime.hpp" />
     <ClInclude Include="RulesForTimeSystem.hpp" />
     <ClInclude Include="Timer.hpp" />
     <ClInclude Include="TimeRepository.hpp" />
-    <ClInclude Include="TimeSystem.hpp" />
     <ClInclude Include="TimeUpdater.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DateSystem.cpp" />
-    <ClCompile Include="GameTime.cpp" />
+    <ClCompile Include="Domain\DateSystem.cpp" />
+    <ClCompile Include="Domain\GameTime.cpp" />
+    <ClCompile Include="Domain\TimeSystem.cpp" />
+    <ClCompile Include="Main.cpp" />
     <ClCompile Include="TimeRepository.cpp" />
-    <ClCompile Include="TimeSystem.cpp" />
     <ClCompile Include="TimeUpdater.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

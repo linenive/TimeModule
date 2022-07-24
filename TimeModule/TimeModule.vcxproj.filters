@@ -14,25 +14,25 @@
     <ClInclude Include="TimeUpdater.hpp">
       <Filter>소스 파일</Filter>
     </ClInclude>
-    <ClInclude Include="RulesForTimeSystem.hpp">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
     <ClInclude Include="Timer.hpp">
       <Filter>소스 파일</Filter>
     </ClInclude>
     <ClInclude Include="TimeRepository.hpp">
       <Filter>소스 파일</Filter>
     </ClInclude>
-    <ClInclude Include="TimeSystem.hpp">
+    <ClInclude Include="Domain\DateSystem.hpp">
       <Filter>소스 파일</Filter>
     </ClInclude>
-    <ClInclude Include="GameTime.hpp">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="DateSystem.hpp">
+    <ClInclude Include="Domain\GameTime.hpp">
       <Filter>소스 파일</Filter>
     </ClInclude>
     <ClInclude Include="Game.hpp">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\TimeSystem.hpp">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="RulesForTimeSystem.hpp">
       <Filter>소스 파일</Filter>
     </ClInclude>
   </ItemGroup>
@@ -40,16 +40,19 @@
     <ClCompile Include="TimeRepository.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="TimeSystem.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="TimeUpdater.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="DateSystem.cpp">
+    <ClCompile Include="Domain\DateSystem.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="GameTime.cpp">
+    <ClCompile Include="Domain\GameTime.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain\TimeSystem.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
